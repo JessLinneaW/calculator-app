@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;  
+  }
+  
+  html, body {
+    height: 100%;
+    width: 100%;
+    background: #eee;
+  }
+  
+  .calculator {
+    width: 300px;
+    background: #fff;
+    border: 1px solid black;
+  }
+  
+  .calculator #display {
+    height: 42px;
+    text-align: right;
+    padding: 16px 16px;
+    margin-bottom:-26px;
+    background: #ffffe9;
+    border-bottom: 1px solid black;
+    color: #000000;
+  }
+  
+  .calculator table {
+    width: 100%;
+    text-align: center;
+    table-layout: fixed;
+  }
+  
+  .calculator table td {
+    padding: 16px;
+    cursor: pointer;
+  }
+
+
+  
